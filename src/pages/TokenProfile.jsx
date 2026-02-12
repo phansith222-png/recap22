@@ -72,8 +72,6 @@ function TokenProfile() {
                     </div>
                 </div>
 
-                {/* Logout Button */}
-                
             </div>
         </div>
     )
