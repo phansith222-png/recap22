@@ -7,6 +7,9 @@ function Layout() {
         <button className='hover:text-rose-600 border px-2 rounded-2xl bg-blue-200' ><NavLink to="/">Home</NavLink></button>
         <button className='hover:text-rose-600 border px-2 rounded-2xl bg-blue-200' ><NavLink to="post">Post</NavLink></button>
         <button className='hover:text-rose-600 border px-2 rounded-2xl bg-blue-200' ><NavLink to="register">Register</NavLink></button>
+        <button className='hover:text-rose-600 border px-2 rounded-2xl bg-blue-200' ><NavLink to="login">Login</NavLink></button>
+        <button className='hover:text-rose-600 border px-2 rounded-2xl bg-blue-200' ><NavLink to="profile">Profile</NavLink></button>
+        <button className='hover:text-rose-600 border px-2 rounded-2xl bg-blue-200' ><NavLink to="tokenprofile">Token-profile</NavLink></button>
       </ul>
       <Outlet/>
     </div>
